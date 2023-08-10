@@ -1,6 +1,6 @@
 part of 'wishist_bloc.dart';
 
 @immutable
-sealed class WishistState {}
+abstract class WishistState {}
 
-final class WishistInitial extends WishistState {}
+class WishistInitial extends WishistState {}
